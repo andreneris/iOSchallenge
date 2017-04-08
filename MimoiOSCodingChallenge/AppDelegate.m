@@ -5,6 +5,7 @@
 
 #import "AppDelegate.h"
 #import "SettingsViewController.h"
+#import <MimoiOSCodingChallenge-Swift.h>
 
 @interface AppDelegate ()
 
@@ -15,10 +16,18 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 	// Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];    
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    UIViewController *viewController = [storyboard instantiateViewControllerWithIdentifier: @"Login"];
+    self.window.rootViewController = viewController;
+    [self.window makeKeyAndVisible];
+    
+    /*
 	self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 	SettingsViewController *vc = [[SettingsViewController alloc] init];
 	self.window.rootViewController = vc;
-	[self.window makeKeyAndVisible];
+	[self.window makeKeyAndVisible]; */
 	return YES;
 }
 
