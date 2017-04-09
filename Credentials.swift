@@ -9,12 +9,12 @@
 import Foundation
 
 
-class Credentials {
+struct Credentials {
     let accessToken: String
     let idToken: String
     
     init (accessToken:String, idToken: String) {
-        self.accessToken = ""
-        self.idToken = ""
+        self.accessToken = accessToken
+        self.idToken = idToken
     }
 }

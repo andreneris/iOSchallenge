@@ -7,203 +7,94 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0BC1CAA2E8ADCD6206AC4FE8FEA091E2 /* Telemetry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7054E4B42208B0646388A0DF7D9609B6 /* Telemetry.swift */; };
-		0F21571977743B16153F045B528AA453 /* SessionStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A133CD54F6499EE0A0D14CE4E7E1AD /* SessionStorage.swift */; };
-		175DF9C6EFA144EC63C54656A9581BC9 /* Handlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD58F66305530EF42489CD5B384ACC84 /* Handlers.swift */; };
-		2097431B20B055DBF5C80E861E400B0E /* A0ChallengeGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = B9C8BDDEF109FE1349500ABB2CB12E9F /* A0ChallengeGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11886DC424726C9B3EE6AD58BA4E7491 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		2464C9C506770C5D320351745A9CA375 /* Pods-MimoiOSCodingChallengeUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E41F94F1A1D54996A06E2896AE78E666 /* Pods-MimoiOSCodingChallengeUITests-dummy.m */; };
-		281FBFF0FB26C692049E6419627E98E3 /* ControllerModalPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7475D1A1330E3F67215B2D7C914F6189 /* ControllerModalPresenter.swift */; };
-		2B255E512FFA3865F371BE7F39C2F5E0 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B080E414F7412B26CB18E2D98D9CC19 /* Profile.swift */; };
-		2CF6053B6FAD3741E4523214F25C98E5 /* NSArray+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 38BCD2BCFB3C999E24F73EFA0A774ECD /* NSArray+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2E4F0C411F413038C8CBC0492B232BC7 /* Auth0Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9301EDF907E77844E4B40C867BA0F71 /* Auth0Error.swift */; };
-		40DAFAC9DE16EB39027B4AFFE3E71989 /* ALView+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 88EF06E12FED36C26CC59D403AB9C097 /* ALView+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4359077D2E7B0E5CA7DBA0499BB143AE /* NSError+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1551C31AEBA1B4CE699767DCE879000 /* NSError+Helper.swift */; };
-		4419C6F0878D42CC2363B82A907EEE0C /* WebAuthError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BA7ABF296935365DF72A9945C039A8 /* WebAuthError.swift */; };
-		45EE1A6C912DC6D188BA60C7A8757AE4 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7279B05C672B163EA32108475D6B25C /* Logger.swift */; };
-		47B123898A89ACFA60B8C87F4CED0AF3 /* Pods-MimoiOSCodingChallenge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EEAE4C1EC4830F46B54194DE6EAE676 /* Pods-MimoiOSCodingChallenge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4E84669C6EB82893C6A41C22571BA410 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = A317C68C7FD4BD2691D4B757CE699930 /* Result.swift */; };
-		4F301AF3F1D01DF8F49BBB288075FD72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1352EEC49A55F61B69BF99FBE821FA /* Foundation.framework */; };
-		52AA7CE9F337B27A48F1E3B1A47E6989 /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B90DED6AAADF8EDAAD38A2696842B9C /* ALView+PureLayout.m */; };
-		5A782A7346E68790AE77B4F0FC954E7F /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08D24FAE1966DFD74F798BAF54CC3A33 /* SafariServices.framework */; };
-		5CB5CD80DAA3A231F8B84DF50AC0D44B /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0599E2D8B1EB835A0CE6C2E5165E0CC8 /* Users.swift */; };
-		6646C255BA8B77A5F64519F22AA5C455 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DD3198D5EFF65D18918AB542055661 /* Credentials.swift */; };
-		6D6497502E0EA93F7FC2AA10200798DC /* ManagementError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CA99C0B616801F91C3DA1D28282C46 /* ManagementError.swift */; };
-		6E2E5762A0883326595C092F4A177836 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1352EEC49A55F61B69BF99FBE821FA /* Foundation.framework */; };
-		6E80D6A49E9095953DFDD72FE01C9821 /* PureLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF64D4C6EEEEAECE90A3786CDB36D13 /* PureLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F2BF167F4B0A7D3714F2B49558C4500 /* UserPatchAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5DE1D2DD71E419C1963106494A5EB5 /* UserPatchAttributes.swift */; };
-		6F4BAFB716352E34643E9B35D84E5B36 /* SafariWebAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3C13121F5D16A990B4CC76CC3D0E27 /* SafariWebAuth.swift */; };
-		6FB8450B88312E8A8B22F26D0370C5A2 /* NSURLComponents+OAuth2.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBA5B6595E8CD199F690F80BBD1F29A /* NSURLComponents+OAuth2.swift */; };
-		73715D0AB77118D6390AC4BC3D94827A /* A0ChallengeGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACD3860310E2ADA6315BBA883D86F0D /* A0ChallengeGenerator.m */; };
-		77A85178821CB2E272EB03E9AE185F4D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14E6369A70C9089CD21DE2EC49DA0A2F /* UIKit.framework */; };
+		24D456F0205BA38C734AA7DB181FD1FD /* NSArray+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 256CB866D56B919DA6C9ABF2C32B4D37 /* NSArray+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27357E6525617E8679A4BCA9DC582050 /* PureLayoutDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B859CA7D3A83073EE3A0EFE2138F31B /* PureLayoutDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EE6F25E690CE68F90A023CEAEEB0255 /* Pods-MimoiOSCodingChallenge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EEAE4C1EC4830F46B54194DE6EAE676 /* Pods-MimoiOSCodingChallenge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B965C3E51DB0A14405AF4AE50780172 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D87500AA33CA4A933595B88AD6CA26C8 /* NSArray+PureLayout.m */; };
+		6E2E5762A0883326595C092F4A177836 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		7DD1D84BC8939F2CD2C50BBA937E09F4 /* Pods-MimoiOSCodingChallengeUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA6182916D32BAC2D867B18267B38869 /* Pods-MimoiOSCodingChallengeUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8119228409E9E32D7E7FC76E7127D8C4 /* PureLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 565F4D19E3BB66BC53B4A1E51CE1A8BF /* PureLayout-dummy.m */; };
-		8186BF4EA23CFCBB192550FAF3644386 /* AuthenticationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00E33D40B5B758D9BE5DDE405753315 /* AuthenticationError.swift */; };
-		848AC6E10958EA2F4B7C292143ECB4A4 /* NSURL+Auth0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CADC317B2BABE338F636AFCCD6AEFB9 /* NSURL+Auth0.swift */; };
+		7E6CE3F55DA98BF78C3C7AD08DF73797 /* PureLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 808D9E17BE044F47037C6ABD6F65EE32 /* PureLayout-dummy.m */; };
+		7F6B57DA08F4D85758657F3EC8A7902F /* NSLayoutConstraint+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F7D472071E15F7DC98E66B5980E1549 /* NSLayoutConstraint+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84F6948BA274EFE29208CDC769BFBC46 /* Pods-MimoiOSCodingChallenge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD9C03C0926D5A0DE8B14C06D978A85C /* Pods-MimoiOSCodingChallenge-dummy.m */; };
 		862833F338F9ED5BCC19211D72AE9569 /* Pods-MimoiOSCodingChallengeTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E57DEDA34D3C76A200978A9B830EB482 /* Pods-MimoiOSCodingChallengeTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		86FFD3C06699EFC7A5BD1D6A126F15DA /* Auth0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 43C7DCA89308950E9468000CA0B1C017 /* Auth0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8ACAAFF412B67ED0AB4915B53C1CFAFA /* Loggable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B94FA40FBE0D6E3795D69EF69D96FD /* Loggable.swift */; };
-		981E6FA9F92F719C780B5B077F878D5E /* JSONObjectPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5ED69B6BB185E2F2D521D3D02819F6F /* JSONObjectPayload.swift */; };
-		9B07301B81FA288CCACD6DAE15A169AA /* OAuth2Grant.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAB85331AAC190297093D09798F5A16 /* OAuth2Grant.swift */; };
-		A13CF92EADA50F564D9BCC77D3158E4C /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7439C5FD572ACEAB6908B4A82BF16F4C /* Response.swift */; };
-		A6F1164A7F25739EA25FE55C8C28F39A /* Auth0.h in Headers */ = {isa = PBXBuildFile; fileRef = 35095C4D437AE8C3157AD1713587A85C /* Auth0.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A88BD16C7C91D0BD50CEE25055299781 /* Auth0.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1692D4F9F02123ABCA878DD6796B31D /* Auth0.swift */; };
-		A89A65E34971320961CD3B3A9DB272AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1352EEC49A55F61B69BF99FBE821FA /* Foundation.framework */; };
-		A92A98010362B6087E0835955FC9B182 /* WebAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AD67451AD9208A5711B27A25B30A37 /* WebAuth.swift */; };
-		AB72E28BCE5A69BC95735907E4D4FEFF /* Auth0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1E27B1C11D5E3FB2D6AEE6DA40ED31 /* Auth0-dummy.m */; };
-		B35E75000897C837EB2566D8DC0815DB /* Requestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4D3EE58579203720B249877D6AC823 /* Requestable.swift */; };
-		B49208E5076C6C6F9AF17A5770A37698 /* Identity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3B7C0DF17A299C8ED9835BF194F357 /* Identity.swift */; };
-		B5FB6B6FBAA5DA3C54656C5D1D97B39A /* _ObjectiveManagementAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031B3D34884E5D72FA599FBBA84E0E4C /* _ObjectiveManagementAPI.swift */; };
-		B8AAF3F272EB1FF3BB9963C349E222CA /* _ObjectiveAuthenticationAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6377140899BCBC11FF3B7BEB8E7BD2BA /* _ObjectiveAuthenticationAPI.swift */; };
-		B9F36F762D22C3B4CF1C0F5DC70AFBCD /* PureLayoutDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = EFE156C50A722801A304DAA444FBC575 /* PureLayoutDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C070AA2495E8DF4D2A10D315800704D7 /* PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = BAF5CF90D3CCB4D11BCA17F2494A6903 /* PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C09256F69A7517ED47D4A022961E04A6 /* _ObjectiveWebAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158D19F309DB541C25FA65D00558D35E /* _ObjectiveWebAuth.swift */; };
-		C377324368CC05AE17B10935B83F0B11 /* NSData+URLSafe.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB507BFA705499695CF214B702F7A788 /* NSData+URLSafe.swift */; };
-		CC60022D6863624E0A0CB3FF0213AFD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1352EEC49A55F61B69BF99FBE821FA /* Foundation.framework */; };
-		CCA63A6C9A049649315C67C3D42848FA /* Management.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B34C9A271BDC1DCBF03BB0DDAF4B00 /* Management.swift */; };
-		D041768D2DF8E958540F6174B8D61FAE /* Auth0Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CDD58676E73546C6C7C5163739BA06 /* Auth0Authentication.swift */; };
-		D20996DF898C2FAA317D7FC79A6E8CD9 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 81217C26E3C352F25A14FE541F4F5546 /* NSLayoutConstraint+PureLayout.m */; };
-		D3CB86DB6398E00950705D7E3B18C565 /* NSLayoutConstraint+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = DC544B8A935833BF32844F7F7AFA77BA /* NSLayoutConstraint+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DF2C86FB71FCE8627FE35A63CFE3B2E0 /* OAuth2Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392DF0D4AF2CE12A2174BFC39753D855 /* OAuth2Session.swift */; };
-		E0EAF9EC2357928D44E6B1BC517BD560 /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4CA2F8C5C97F4CE843A26010EB2008 /* Authentication.swift */; };
-		E23756070AEBCE0918AB7F02F6256C3C /* ResponseType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9551970B31950EBCCE629CC92A7B08 /* ResponseType.swift */; };
-		E3B3096EE6E22F282E1EDF57E8927668 /* PureLayout+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = EE8B8AFE9381A5F1BC69269A28ECA83F /* PureLayout+Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C3D46C3AC7059F9BE5DD6B434D51AB2 /* ALView+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = F3D3F05D324772E907DB1D4DA2C89AA2 /* ALView+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8457DB7FA4243FF02128117FBD5A41C /* PureLayout+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = AA654F86E857710B01965E96AC15F25C /* PureLayout+Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF0689F447313F95876996B740D315EE /* PureLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EFEA95188E08BEB23065B2AB052E7BC /* PureLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C90E3A03A806C1FA318E4C8B3F6D04F6 /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6990C47F02B6691DD4DA9D4504A36B /* ALView+PureLayout.m */; };
+		CC60022D6863624E0A0CB3FF0213AFD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		E61010ACEA1F28BF5DC2A3495BB601D8 /* PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 261FA9EFC65F5CA2F5CE7AF0D3ACE209 /* PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EB6BFE2F702FC9B0D6F133763E8CC2D4 /* Pods-MimoiOSCodingChallengeTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0D3FFC72B8E079D60E1D6ED45C5384 /* Pods-MimoiOSCodingChallengeTests-dummy.m */; };
-		ED775DCDE3188F52844C3C6558356F9E /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928A5CF43E459D473FAF04F433E0ECB9 /* Request.swift */; };
-		F0DEEBF6CE86AB5D914E305DD208610B /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACDDFF00882859100E4E4280D119042 /* NSArray+PureLayout.m */; };
-		F5E3D2DBA3CB4EB16DEA96F7A3220F1F /* Pods-MimoiOSCodingChallenge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD9C03C0926D5A0DE8B14C06D978A85C /* Pods-MimoiOSCodingChallenge-dummy.m */; };
-		FBB5C76E0B3A927B442FB6C94C6D7B12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1352EEC49A55F61B69BF99FBE821FA /* Foundation.framework */; };
+		F04940044391F4EC462EA565360E57AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		F9E6C15E8C9EDD76E7790320A7E1671C /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 62FD488738DACC6BD28A4B8007AC9E22 /* NSLayoutConstraint+PureLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		29E869E5EC61A188AE50721B6ED2AC9C /* PBXContainerItemProxy */ = {
+		4F6F5560C47B06B99D308C05FC29CBE7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9385016C18AE8E9305640B4A01EA0E7C;
-			remoteInfo = Auth0;
-		};
-		D2C65F899AE20D2E8C2F13D83EC0F080 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DD013D3EFF19275CBDCBFFF63F790B61;
+			remoteGlobalIDString = 6748F1B3FDBCA5C5D3911564DA956C85;
 			remoteInfo = PureLayout;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		031B3D34884E5D72FA599FBBA84E0E4C /* _ObjectiveManagementAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = _ObjectiveManagementAPI.swift; path = Auth0/_ObjectiveManagementAPI.swift; sourceTree = "<group>"; };
+		01B056FE48A821CA3D3818E32A4CFEDF /* PureLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PureLayout.xcconfig; sourceTree = "<group>"; };
 		0377CC5EB408E5BCFB76273FE7889FBC /* Pods-MimoiOSCodingChallengeTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MimoiOSCodingChallengeTests.modulemap"; sourceTree = "<group>"; };
-		0599E2D8B1EB835A0CE6C2E5165E0CC8 /* Users.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Users.swift; path = Auth0/Users.swift; sourceTree = "<group>"; };
-		08D24FAE1966DFD74F798BAF54CC3A33 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/SafariServices.framework; sourceTree = DEVELOPER_DIR; };
 		09E6BF7004DA3B825B0C427F1BD6993B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0A5DE1D2DD71E419C1963106494A5EB5 /* UserPatchAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserPatchAttributes.swift; path = Auth0/UserPatchAttributes.swift; sourceTree = "<group>"; };
 		0EF7F58169E0872CF6B112E6CEA765BF /* Pods-MimoiOSCodingChallengeTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MimoiOSCodingChallengeTests-frameworks.sh"; sourceTree = "<group>"; };
-		0F1E27B1C11D5E3FB2D6AEE6DA40ED31 /* Auth0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Auth0-dummy.m"; sourceTree = "<group>"; };
-		0FEDC804113A3765D724A90FDEAE5E5A /* Auth0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Auth0-prefix.pch"; sourceTree = "<group>"; };
-		14E6369A70C9089CD21DE2EC49DA0A2F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		158D19F309DB541C25FA65D00558D35E /* _ObjectiveWebAuth.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = _ObjectiveWebAuth.swift; path = Auth0/_ObjectiveWebAuth.swift; sourceTree = "<group>"; };
-		1ACDDFF00882859100E4E4280D119042 /* NSArray+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+PureLayout.m"; path = "PureLayout/PureLayout/NSArray+PureLayout.m"; sourceTree = "<group>"; };
-		1B080E414F7412B26CB18E2D98D9CC19 /* Profile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Profile.swift; path = Auth0/Profile.swift; sourceTree = "<group>"; };
-		1F303BEF51A6A60678C515B925204A5D /* PureLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-prefix.pch"; sourceTree = "<group>"; };
-		20C9C9D99DAD07930AA620A6F3DF26FE /* PureLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PureLayout.xcconfig; sourceTree = "<group>"; };
-		217DECD2547D806D7751F15B61F66955 /* Pods_MimoiOSCodingChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MimoiOSCodingChallenge.framework; path = "Pods-MimoiOSCodingChallenge.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		234F38BA2CFAF2311EB0D7150B2729EF /* Pods_MimoiOSCodingChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MimoiOSCodingChallenge.framework; path = "Pods-MimoiOSCodingChallenge.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2396A02ECE5C0641B3A68C8BA35C8B9C /* Pods-MimoiOSCodingChallengeUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MimoiOSCodingChallengeUITests-frameworks.sh"; sourceTree = "<group>"; };
-		2CADC317B2BABE338F636AFCCD6AEFB9 /* NSURL+Auth0.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSURL+Auth0.swift"; path = "Auth0/NSURL+Auth0.swift"; sourceTree = "<group>"; };
+		249938C44B3C707521E098F2C5086AD9 /* PureLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PureLayout.modulemap; sourceTree = "<group>"; };
+		256CB866D56B919DA6C9ABF2C32B4D37 /* NSArray+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+PureLayout.h"; path = "PureLayout/PureLayout/NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		261FA9EFC65F5CA2F5CE7AF0D3ACE209 /* PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayout.h; path = PureLayout/PureLayout/PureLayout.h; sourceTree = "<group>"; };
 		2EEAE4C1EC4830F46B54194DE6EAE676 /* Pods-MimoiOSCodingChallenge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MimoiOSCodingChallenge-umbrella.h"; sourceTree = "<group>"; };
+		2F7D472071E15F7DC98E66B5980E1549 /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+PureLayout.h"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
 		2FD4B26E57B641F424E91F36942BB4A7 /* Pods-MimoiOSCodingChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MimoiOSCodingChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
-		328D20A1FE3B87E0CAAA2FA18FDF4FC8 /* PureLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PureLayout.framework; path = PureLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		35095C4D437AE8C3157AD1713587A85C /* Auth0.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Auth0.h; path = Auth0/Auth0.h; sourceTree = "<group>"; };
-		38BCD2BCFB3C999E24F73EFA0A774ECD /* NSArray+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+PureLayout.h"; path = "PureLayout/PureLayout/NSArray+PureLayout.h"; sourceTree = "<group>"; };
-		392DF0D4AF2CE12A2174BFC39753D855 /* OAuth2Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2Session.swift; path = Auth0/OAuth2Session.swift; sourceTree = "<group>"; };
-		39CDD58676E73546C6C7C5163739BA06 /* Auth0Authentication.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Auth0Authentication.swift; path = Auth0/Auth0Authentication.swift; sourceTree = "<group>"; };
-		3E3C13121F5D16A990B4CC76CC3D0E27 /* SafariWebAuth.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SafariWebAuth.swift; path = Auth0/SafariWebAuth.swift; sourceTree = "<group>"; };
-		3E4D3EE58579203720B249877D6AC823 /* Requestable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Requestable.swift; path = Auth0/Requestable.swift; sourceTree = "<group>"; };
+		3F6990C47F02B6691DD4DA9D4504A36B /* ALView+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ALView+PureLayout.m"; path = "PureLayout/PureLayout/ALView+PureLayout.m"; sourceTree = "<group>"; };
 		400ECF4FE9E5548189FE2FD70CC5A23E /* Pods-MimoiOSCodingChallenge-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MimoiOSCodingChallenge-resources.sh"; sourceTree = "<group>"; };
-		418675A047CD18872E5BA05678C61BB9 /* Auth0.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Auth0.xcconfig; sourceTree = "<group>"; };
-		43AD67451AD9208A5711B27A25B30A37 /* WebAuth.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebAuth.swift; path = Auth0/WebAuth.swift; sourceTree = "<group>"; };
-		43C7DCA89308950E9468000CA0B1C017 /* Auth0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Auth0-umbrella.h"; sourceTree = "<group>"; };
 		4B0D3FFC72B8E079D60E1D6ED45C5384 /* Pods-MimoiOSCodingChallengeTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MimoiOSCodingChallengeTests-dummy.m"; sourceTree = "<group>"; };
-		4B9551970B31950EBCCE629CC92A7B08 /* ResponseType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseType.swift; path = Auth0/ResponseType.swift; sourceTree = "<group>"; };
-		4F1352EEC49A55F61B69BF99FBE821FA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4F74BE817943750392374633261525E7 /* Pods_MimoiOSCodingChallengeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MimoiOSCodingChallengeUITests.framework; path = "Pods-MimoiOSCodingChallengeUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50C5988C9C3231BA8FECD2173C7E2F61 /* Pods-MimoiOSCodingChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MimoiOSCodingChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		52B94FA40FBE0D6E3795D69EF69D96FD /* Loggable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Loggable.swift; path = Auth0/Loggable.swift; sourceTree = "<group>"; };
 		532239DB666CBB66DF324E5F06013CBA /* Pods-MimoiOSCodingChallenge-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MimoiOSCodingChallenge-acknowledgements.markdown"; sourceTree = "<group>"; };
-		55BA7ABF296935365DF72A9945C039A8 /* WebAuthError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebAuthError.swift; path = Auth0/WebAuthError.swift; sourceTree = "<group>"; };
-		565F4D19E3BB66BC53B4A1E51CE1A8BF /* PureLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PureLayout-dummy.m"; sourceTree = "<group>"; };
-		56A133CD54F6499EE0A0D14CE4E7E1AD /* SessionStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionStorage.swift; path = Auth0/SessionStorage.swift; sourceTree = "<group>"; };
-		57594BCCC8681C5E27D9914311E0DA55 /* Auth0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Auth0.framework; path = Auth0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AB1C5B9C2D59CED5FD34C56A1F39830 /* Pods-MimoiOSCodingChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MimoiOSCodingChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
-		6377140899BCBC11FF3B7BEB8E7BD2BA /* _ObjectiveAuthenticationAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = _ObjectiveAuthenticationAPI.swift; path = Auth0/_ObjectiveAuthenticationAPI.swift; sourceTree = "<group>"; };
-		6E0C32E57259A4B9635C28B3F41FEE88 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7054E4B42208B0646388A0DF7D9609B6 /* Telemetry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Telemetry.swift; path = Auth0/Telemetry.swift; sourceTree = "<group>"; };
-		7439C5FD572ACEAB6908B4A82BF16F4C /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Auth0/Response.swift; sourceTree = "<group>"; };
-		7475D1A1330E3F67215B2D7C914F6189 /* ControllerModalPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ControllerModalPresenter.swift; path = Auth0/ControllerModalPresenter.swift; sourceTree = "<group>"; };
-		7ACD3860310E2ADA6315BBA883D86F0D /* A0ChallengeGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = A0ChallengeGenerator.m; path = Auth0/A0ChallengeGenerator.m; sourceTree = "<group>"; };
-		7B90DED6AAADF8EDAAD38A2696842B9C /* ALView+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ALView+PureLayout.m"; path = "PureLayout/PureLayout/ALView+PureLayout.m"; sourceTree = "<group>"; };
+		5B859CA7D3A83073EE3A0EFE2138F31B /* PureLayoutDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayoutDefines.h; path = PureLayout/PureLayout/PureLayoutDefines.h; sourceTree = "<group>"; };
+		62FD488738DACC6BD28A4B8007AC9E22 /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+PureLayout.m"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
+		6D986837FA46C6AB4A8D72FCAA1B4454 /* PureLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-prefix.pch"; sourceTree = "<group>"; };
+		6EFEA95188E08BEB23065B2AB052E7BC /* PureLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-umbrella.h"; sourceTree = "<group>"; };
 		7E18D911896C58767C8BB1F4EDEA3CF1 /* Pods-MimoiOSCodingChallengeUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MimoiOSCodingChallengeUITests-resources.sh"; sourceTree = "<group>"; };
-		81217C26E3C352F25A14FE541F4F5546 /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+PureLayout.m"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
-		870DBFA0AC61B61632D30AE4411C2B8E /* Pods_MimoiOSCodingChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MimoiOSCodingChallengeTests.framework; path = "Pods-MimoiOSCodingChallengeTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		88EF06E12FED36C26CC59D403AB9C097 /* ALView+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ALView+PureLayout.h"; path = "PureLayout/PureLayout/ALView+PureLayout.h"; sourceTree = "<group>"; };
+		808D9E17BE044F47037C6ABD6F65EE32 /* PureLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PureLayout-dummy.m"; sourceTree = "<group>"; };
 		89629ADC97DD3DFCBDC2F487FA501106 /* Pods-MimoiOSCodingChallengeUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MimoiOSCodingChallengeUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8AF64D4C6EEEEAECE90A3786CDB36D13 /* PureLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-umbrella.h"; sourceTree = "<group>"; };
-		8DE344EDAAEC8F803ABC31EA868E427F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EC0D8DB8C227ADF362E76B0211F482B /* Pods-MimoiOSCodingChallengeUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MimoiOSCodingChallengeUITests.modulemap"; sourceTree = "<group>"; };
-		928A5CF43E459D473FAF04F433E0ECB9 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Auth0/Request.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95133B868E25491DA700A416238E3405 /* Pods-MimoiOSCodingChallengeTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MimoiOSCodingChallengeTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		9B6B064B7A474C166ED0B5F285326E2C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2BFD857B4FE6338BFA5792D05BF09CA /* Pods-MimoiOSCodingChallenge-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MimoiOSCodingChallenge-acknowledgements.plist"; sourceTree = "<group>"; };
-		A317C68C7FD4BD2691D4B757CE699930 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Auth0/Result.swift; sourceTree = "<group>"; };
-		A3B34C9A271BDC1DCBF03BB0DDAF4B00 /* Management.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Management.swift; path = Auth0/Management.swift; sourceTree = "<group>"; };
-		ACAB85331AAC190297093D09798F5A16 /* OAuth2Grant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2Grant.swift; path = Auth0/OAuth2Grant.swift; sourceTree = "<group>"; };
-		ACBA5B6595E8CD199F690F80BBD1F29A /* NSURLComponents+OAuth2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSURLComponents+OAuth2.swift"; path = "Auth0/NSURLComponents+OAuth2.swift"; sourceTree = "<group>"; };
-		B1551C31AEBA1B4CE699767DCE879000 /* NSError+Helper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSError+Helper.swift"; path = "Auth0/NSError+Helper.swift"; sourceTree = "<group>"; };
-		B5DD3198D5EFF65D18918AB542055661 /* Credentials.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Credentials.swift; path = Auth0/Credentials.swift; sourceTree = "<group>"; };
-		B9C8BDDEF109FE1349500ABB2CB12E9F /* A0ChallengeGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A0ChallengeGenerator.h; path = Auth0/A0ChallengeGenerator.h; sourceTree = "<group>"; };
-		BAF5CF90D3CCB4D11BCA17F2494A6903 /* PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayout.h; path = PureLayout/PureLayout/PureLayout.h; sourceTree = "<group>"; };
+		AA654F86E857710B01965E96AC15F25C /* PureLayout+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PureLayout+Internal.h"; path = "PureLayout/PureLayout/PureLayout+Internal.h"; sourceTree = "<group>"; };
+		B0FB5C2ECBAD17E5C0A3427C4F60C5EC /* PureLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PureLayout.framework; path = PureLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B22BCE341EC833E8516EA8CB74787477 /* Pods_MimoiOSCodingChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MimoiOSCodingChallengeTests.framework; path = "Pods-MimoiOSCodingChallengeTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3227C0AC64D3472A39CA215D8EE6788 /* Pods-MimoiOSCodingChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MimoiOSCodingChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C401B6DA8077C3EB8DD60F6B43D361E7 /* Pods-MimoiOSCodingChallengeTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MimoiOSCodingChallengeTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C7279B05C672B163EA32108475D6B25C /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = Auth0/Logger.swift; sourceTree = "<group>"; };
 		C911B3853FC6F5A7ABF9A7A4FFDAA134 /* Pods-MimoiOSCodingChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MimoiOSCodingChallenge.release.xcconfig"; sourceTree = "<group>"; };
-		CB507BFA705499695CF214B702F7A788 /* NSData+URLSafe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSData+URLSafe.swift"; path = "Auth0/NSData+URLSafe.swift"; sourceTree = "<group>"; };
-		CC4CA2F8C5C97F4CE843A26010EB2008 /* Authentication.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Authentication.swift; path = Auth0/Authentication.swift; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CC98D1226E3C02E67DBCEB81B387404E /* Pods-MimoiOSCodingChallengeTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MimoiOSCodingChallengeTests-resources.sh"; sourceTree = "<group>"; };
-		D1692D4F9F02123ABCA878DD6796B31D /* Auth0.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Auth0.swift; path = Auth0/Auth0.swift; sourceTree = "<group>"; };
 		D18CA9F20F20FD62907DD63BAD08D296 /* Pods-MimoiOSCodingChallenge-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MimoiOSCodingChallenge-frameworks.sh"; sourceTree = "<group>"; };
-		D5ED69B6BB185E2F2D521D3D02819F6F /* JSONObjectPayload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONObjectPayload.swift; path = Auth0/JSONObjectPayload.swift; sourceTree = "<group>"; };
+		D87500AA33CA4A933595B88AD6CA26C8 /* NSArray+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+PureLayout.m"; path = "PureLayout/PureLayout/NSArray+PureLayout.m"; sourceTree = "<group>"; };
 		D902C2BC5637DF488238528DF253B430 /* Pods-MimoiOSCodingChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MimoiOSCodingChallenge.debug.xcconfig"; sourceTree = "<group>"; };
-		D95EEB02C5AC049E1508E28C515727A0 /* Auth0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Auth0.modulemap; sourceTree = "<group>"; };
-		DB3B7C0DF17A299C8ED9835BF194F357 /* Identity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Identity.swift; path = Auth0/Identity.swift; sourceTree = "<group>"; };
-		DC544B8A935833BF32844F7F7AFA77BA /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+PureLayout.h"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
-		DD58F66305530EF42489CD5B384ACC84 /* Handlers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Handlers.swift; path = Auth0/Handlers.swift; sourceTree = "<group>"; };
+		DC48A19E2AA264922693A9C30BC30743 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD9C03C0926D5A0DE8B14C06D978A85C /* Pods-MimoiOSCodingChallenge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MimoiOSCodingChallenge-dummy.m"; sourceTree = "<group>"; };
-		E00E33D40B5B758D9BE5DDE405753315 /* AuthenticationError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationError.swift; path = Auth0/AuthenticationError.swift; sourceTree = "<group>"; };
 		E41F94F1A1D54996A06E2896AE78E666 /* Pods-MimoiOSCodingChallengeUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MimoiOSCodingChallengeUITests-dummy.m"; sourceTree = "<group>"; };
 		E57DEDA34D3C76A200978A9B830EB482 /* Pods-MimoiOSCodingChallengeTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MimoiOSCodingChallengeTests-umbrella.h"; sourceTree = "<group>"; };
-		E7CA99C0B616801F91C3DA1D28282C46 /* ManagementError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ManagementError.swift; path = Auth0/ManagementError.swift; sourceTree = "<group>"; };
-		E9301EDF907E77844E4B40C867BA0F71 /* Auth0Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Auth0Error.swift; path = Auth0/Auth0Error.swift; sourceTree = "<group>"; };
-		E9F137F9FA952CF56EE37668D92AC752 /* PureLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PureLayout.modulemap; sourceTree = "<group>"; };
 		EA6182916D32BAC2D867B18267B38869 /* Pods-MimoiOSCodingChallengeUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MimoiOSCodingChallengeUITests-umbrella.h"; sourceTree = "<group>"; };
 		EAC762F5397BBF6591AC678A1ADFA1D3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDE2D892C86EBE5451F796074FF727EB /* Pods-MimoiOSCodingChallenge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MimoiOSCodingChallenge.modulemap"; sourceTree = "<group>"; };
-		EE8939CF2C6B586D69175B2574152035 /* Pods_MimoiOSCodingChallengeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MimoiOSCodingChallengeUITests.framework; path = "Pods-MimoiOSCodingChallengeUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE8B8AFE9381A5F1BC69269A28ECA83F /* PureLayout+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PureLayout+Internal.h"; path = "PureLayout/PureLayout/PureLayout+Internal.h"; sourceTree = "<group>"; };
-		EFE156C50A722801A304DAA444FBC575 /* PureLayoutDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayoutDefines.h; path = PureLayout/PureLayout/PureLayoutDefines.h; sourceTree = "<group>"; };
+		F3D3F05D324772E907DB1D4DA2C89AA2 /* ALView+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ALView+PureLayout.h"; path = "PureLayout/PureLayout/ALView+PureLayout.h"; sourceTree = "<group>"; };
 		FC71F456311D00484AB07822AE820C06 /* Pods-MimoiOSCodingChallengeUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MimoiOSCodingChallengeUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		096AF779CF478AFD28C7E83F972B85F8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A89A65E34971320961CD3B3A9DB272AE /* Foundation.framework in Frameworks */,
-				5A782A7346E68790AE77B4F0FC954E7F /* SafariServices.framework in Frameworks */,
-				77A85178821CB2E272EB03E9AE185F4D /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		980E9071AFF0AAE39B4CA66D74B269FF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -212,11 +103,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BB949E2223962EE6715BA6ACD200DAC2 /* Frameworks */ = {
+		BC23472EE7346B6ADAE6EAEB03AEEA4E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F301AF3F1D01DF8F49BBB288075FD72 /* Foundation.framework in Frameworks */,
+				F04940044391F4EC462EA565360E57AB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA82020E52E17D826FFCADB5041F16F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11886DC424726C9B3EE6AD58BA4E7491 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,14 +124,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC60022D6863624E0A0CB3FF0213AFD8 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FD853C2BE9D5EB241CCD2AB17BA87874 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FBB5C76E0B3A927B442FB6C94C6D7B12 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,138 +158,82 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+		2F7CB2F8AA04108B4168449AFCA94214 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FA464FCF600E26BE88CEAB5234F7F3C6 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		3731A5C2E0F696DFABD8F163508B2B32 /* Auth0 */ = {
-			isa = PBXGroup;
-			children = (
-				6377140899BCBC11FF3B7BEB8E7BD2BA /* _ObjectiveAuthenticationAPI.swift */,
-				031B3D34884E5D72FA599FBBA84E0E4C /* _ObjectiveManagementAPI.swift */,
-				158D19F309DB541C25FA65D00558D35E /* _ObjectiveWebAuth.swift */,
-				B9C8BDDEF109FE1349500ABB2CB12E9F /* A0ChallengeGenerator.h */,
-				7ACD3860310E2ADA6315BBA883D86F0D /* A0ChallengeGenerator.m */,
-				35095C4D437AE8C3157AD1713587A85C /* Auth0.h */,
-				D1692D4F9F02123ABCA878DD6796B31D /* Auth0.swift */,
-				39CDD58676E73546C6C7C5163739BA06 /* Auth0Authentication.swift */,
-				E9301EDF907E77844E4B40C867BA0F71 /* Auth0Error.swift */,
-				CC4CA2F8C5C97F4CE843A26010EB2008 /* Authentication.swift */,
-				E00E33D40B5B758D9BE5DDE405753315 /* AuthenticationError.swift */,
-				7475D1A1330E3F67215B2D7C914F6189 /* ControllerModalPresenter.swift */,
-				B5DD3198D5EFF65D18918AB542055661 /* Credentials.swift */,
-				DD58F66305530EF42489CD5B384ACC84 /* Handlers.swift */,
-				DB3B7C0DF17A299C8ED9835BF194F357 /* Identity.swift */,
-				D5ED69B6BB185E2F2D521D3D02819F6F /* JSONObjectPayload.swift */,
-				52B94FA40FBE0D6E3795D69EF69D96FD /* Loggable.swift */,
-				C7279B05C672B163EA32108475D6B25C /* Logger.swift */,
-				A3B34C9A271BDC1DCBF03BB0DDAF4B00 /* Management.swift */,
-				E7CA99C0B616801F91C3DA1D28282C46 /* ManagementError.swift */,
-				CB507BFA705499695CF214B702F7A788 /* NSData+URLSafe.swift */,
-				B1551C31AEBA1B4CE699767DCE879000 /* NSError+Helper.swift */,
-				2CADC317B2BABE338F636AFCCD6AEFB9 /* NSURL+Auth0.swift */,
-				ACBA5B6595E8CD199F690F80BBD1F29A /* NSURLComponents+OAuth2.swift */,
-				ACAB85331AAC190297093D09798F5A16 /* OAuth2Grant.swift */,
-				392DF0D4AF2CE12A2174BFC39753D855 /* OAuth2Session.swift */,
-				1B080E414F7412B26CB18E2D98D9CC19 /* Profile.swift */,
-				928A5CF43E459D473FAF04F433E0ECB9 /* Request.swift */,
-				3E4D3EE58579203720B249877D6AC823 /* Requestable.swift */,
-				7439C5FD572ACEAB6908B4A82BF16F4C /* Response.swift */,
-				4B9551970B31950EBCCE629CC92A7B08 /* ResponseType.swift */,
-				A317C68C7FD4BD2691D4B757CE699930 /* Result.swift */,
-				3E3C13121F5D16A990B4CC76CC3D0E27 /* SafariWebAuth.swift */,
-				56A133CD54F6499EE0A0D14CE4E7E1AD /* SessionStorage.swift */,
-				7054E4B42208B0646388A0DF7D9609B6 /* Telemetry.swift */,
-				0A5DE1D2DD71E419C1963106494A5EB5 /* UserPatchAttributes.swift */,
-				0599E2D8B1EB835A0CE6C2E5165E0CC8 /* Users.swift */,
-				43AD67451AD9208A5711B27A25B30A37 /* WebAuth.swift */,
-				55BA7ABF296935365DF72A9945C039A8 /* WebAuthError.swift */,
-				62247CB56A15805BECC05E7DBB278A17 /* Support Files */,
-			);
-			name = Auth0;
-			path = Auth0;
-			sourceTree = "<group>";
-		};
-		4CC785E9497423CDEF741A14414991C8 /* PureLayout */ = {
-			isa = PBXGroup;
-			children = (
-				88EF06E12FED36C26CC59D403AB9C097 /* ALView+PureLayout.h */,
-				7B90DED6AAADF8EDAAD38A2696842B9C /* ALView+PureLayout.m */,
-				38BCD2BCFB3C999E24F73EFA0A774ECD /* NSArray+PureLayout.h */,
-				1ACDDFF00882859100E4E4280D119042 /* NSArray+PureLayout.m */,
-				DC544B8A935833BF32844F7F7AFA77BA /* NSLayoutConstraint+PureLayout.h */,
-				81217C26E3C352F25A14FE541F4F5546 /* NSLayoutConstraint+PureLayout.m */,
-				BAF5CF90D3CCB4D11BCA17F2494A6903 /* PureLayout.h */,
-				EE8B8AFE9381A5F1BC69269A28ECA83F /* PureLayout+Internal.h */,
-				EFE156C50A722801A304DAA444FBC575 /* PureLayoutDefines.h */,
-				7555058BBC7497010F107C57AA7CC898 /* Support Files */,
-			);
-			name = PureLayout;
-			path = PureLayout;
-			sourceTree = "<group>";
-		};
-		50E7B25E3DD88CA7029F22F7440D23ED /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3731A5C2E0F696DFABD8F163508B2B32 /* Auth0 */,
-				4CC785E9497423CDEF741A14414991C8 /* PureLayout */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		62247CB56A15805BECC05E7DBB278A17 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D95EEB02C5AC049E1508E28C515727A0 /* Auth0.modulemap */,
-				418675A047CD18872E5BA05678C61BB9 /* Auth0.xcconfig */,
-				0F1E27B1C11D5E3FB2D6AEE6DA40ED31 /* Auth0-dummy.m */,
-				0FEDC804113A3765D724A90FDEAE5E5A /* Auth0-prefix.pch */,
-				43C7DCA89308950E9468000CA0B1C017 /* Auth0-umbrella.h */,
-				8DE344EDAAEC8F803ABC31EA868E427F /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Auth0";
-			sourceTree = "<group>";
-		};
-		7555058BBC7497010F107C57AA7CC898 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6E0C32E57259A4B9635C28B3F41FEE88 /* Info.plist */,
-				E9F137F9FA952CF56EE37668D92AC752 /* PureLayout.modulemap */,
-				20C9C9D99DAD07930AA620A6F3DF26FE /* PureLayout.xcconfig */,
-				565F4D19E3BB66BC53B4A1E51CE1A8BF /* PureLayout-dummy.m */,
-				1F303BEF51A6A60678C515B925204A5D /* PureLayout-prefix.pch */,
-				8AF64D4C6EEEEAECE90A3786CDB36D13 /* PureLayout-umbrella.h */,
+				DC48A19E2AA264922693A9C30BC30743 /* Info.plist */,
+				249938C44B3C707521E098F2C5086AD9 /* PureLayout.modulemap */,
+				01B056FE48A821CA3D3818E32A4CFEDF /* PureLayout.xcconfig */,
+				808D9E17BE044F47037C6ABD6F65EE32 /* PureLayout-dummy.m */,
+				6D986837FA46C6AB4A8D72FCAA1B4454 /* PureLayout-prefix.pch */,
+				6EFEA95188E08BEB23065B2AB052E7BC /* PureLayout-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/PureLayout";
+			sourceTree = "<group>";
+		};
+		477DE8C7BA9A81A853AA69F51BC05E9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				234F38BA2CFAF2311EB0D7150B2729EF /* Pods_MimoiOSCodingChallenge.framework */,
+				B22BCE341EC833E8516EA8CB74787477 /* Pods_MimoiOSCodingChallengeTests.framework */,
+				4F74BE817943750392374633261525E7 /* Pods_MimoiOSCodingChallengeUITests.framework */,
+				B0FB5C2ECBAD17E5C0A3427C4F60C5EC /* PureLayout.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
-				50E7B25E3DD88CA7029F22F7440D23ED /* Pods */,
-				C88B2DE5AD8EA342ACC7E9BCDD31B5B5 /* Products */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				A2FDD832DA64F35B104DD4C55A31BF8E /* Pods */,
+				477DE8C7BA9A81A853AA69F51BC05E9B /* Products */,
 				07FAB9945B5CE564CBA9D0693985B157 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		C88B2DE5AD8EA342ACC7E9BCDD31B5B5 /* Products */ = {
+		9C6F93A5AE4A9293598494393460DF93 /* PureLayout */ = {
 			isa = PBXGroup;
 			children = (
-				57594BCCC8681C5E27D9914311E0DA55 /* Auth0.framework */,
-				217DECD2547D806D7751F15B61F66955 /* Pods_MimoiOSCodingChallenge.framework */,
-				870DBFA0AC61B61632D30AE4411C2B8E /* Pods_MimoiOSCodingChallengeTests.framework */,
-				EE8939CF2C6B586D69175B2574152035 /* Pods_MimoiOSCodingChallengeUITests.framework */,
-				328D20A1FE3B87E0CAAA2FA18FDF4FC8 /* PureLayout.framework */,
+				F3D3F05D324772E907DB1D4DA2C89AA2 /* ALView+PureLayout.h */,
+				3F6990C47F02B6691DD4DA9D4504A36B /* ALView+PureLayout.m */,
+				256CB866D56B919DA6C9ABF2C32B4D37 /* NSArray+PureLayout.h */,
+				D87500AA33CA4A933595B88AD6CA26C8 /* NSArray+PureLayout.m */,
+				2F7D472071E15F7DC98E66B5980E1549 /* NSLayoutConstraint+PureLayout.h */,
+				62FD488738DACC6BD28A4B8007AC9E22 /* NSLayoutConstraint+PureLayout.m */,
+				261FA9EFC65F5CA2F5CE7AF0D3ACE209 /* PureLayout.h */,
+				AA654F86E857710B01965E96AC15F25C /* PureLayout+Internal.h */,
+				5B859CA7D3A83073EE3A0EFE2138F31B /* PureLayoutDefines.h */,
+				2F7CB2F8AA04108B4168449AFCA94214 /* Support Files */,
 			);
-			name = Products;
+			name = PureLayout;
+			path = PureLayout;
+			sourceTree = "<group>";
+		};
+		A2FDD832DA64F35B104DD4C55A31BF8E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C6F93A5AE4A9293598494393460DF93 /* PureLayout */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		E4F5B8EFC209564ED0BB8AAC15C0B150 /* Pods-MimoiOSCodingChallengeUITests */ = {
@@ -437,48 +272,14 @@
 			path = "Target Support Files/Pods-MimoiOSCodingChallengeTests";
 			sourceTree = "<group>";
 		};
-		FA464FCF600E26BE88CEAB5234F7F3C6 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				4F1352EEC49A55F61B69BF99FBE821FA /* Foundation.framework */,
-				08D24FAE1966DFD74F798BAF54CC3A33 /* SafariServices.framework */,
-				14E6369A70C9089CD21DE2EC49DA0A2F /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		84DF02CE7C431D8A56004B856887EDC7 /* Headers */ = {
+		4B7957D3931C5907E3B567B3C9620989 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40DAFAC9DE16EB39027B4AFFE3E71989 /* ALView+PureLayout.h in Headers */,
-				2CF6053B6FAD3741E4523214F25C98E5 /* NSArray+PureLayout.h in Headers */,
-				D3CB86DB6398E00950705D7E3B18C565 /* NSLayoutConstraint+PureLayout.h in Headers */,
-				E3B3096EE6E22F282E1EDF57E8927668 /* PureLayout+Internal.h in Headers */,
-				6E80D6A49E9095953DFDD72FE01C9821 /* PureLayout-umbrella.h in Headers */,
-				C070AA2495E8DF4D2A10D315800704D7 /* PureLayout.h in Headers */,
-				B9F36F762D22C3B4CF1C0F5DC70AFBCD /* PureLayoutDefines.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		84EDC38F5A3ABB57B2F624D32E2D758A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2097431B20B055DBF5C80E861E400B0E /* A0ChallengeGenerator.h in Headers */,
-				86FFD3C06699EFC7A5BD1D6A126F15DA /* Auth0-umbrella.h in Headers */,
-				A6F1164A7F25739EA25FE55C8C28F39A /* Auth0.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C5F537B1D0FE3BC3DFA8E84755EA2DAD /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				47B123898A89ACFA60B8C87F4CED0AF3 /* Pods-MimoiOSCodingChallenge-umbrella.h in Headers */,
+				3EE6F25E690CE68F90A023CEAEEB0255 /* Pods-MimoiOSCodingChallenge-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,6 +288,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				862833F338F9ED5BCC19211D72AE9569 /* Pods-MimoiOSCodingChallengeTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E78446FFAE8C14DFE04FCEDB576E04CE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C3D46C3AC7059F9BE5DD6B434D51AB2 /* ALView+PureLayout.h in Headers */,
+				24D456F0205BA38C734AA7DB181FD1FD /* NSArray+PureLayout.h in Headers */,
+				7F6B57DA08F4D85758657F3EC8A7902F /* NSLayoutConstraint+PureLayout.h in Headers */,
+				B8457DB7FA4243FF02128117FBD5A41C /* PureLayout+Internal.h in Headers */,
+				BF0689F447313F95876996B740D315EE /* PureLayout-umbrella.h in Headers */,
+				E61010ACEA1F28BF5DC2A3495BB601D8 /* PureLayout.h in Headers */,
+				27357E6525617E8679A4BCA9DC582050 /* PureLayoutDefines.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,6 +316,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		6748F1B3FDBCA5C5D3911564DA956C85 /* PureLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57E1F18C73CD001B0459480B814D7BE1 /* Build configuration list for PBXNativeTarget "PureLayout" */;
+			buildPhases = (
+				5A427511FD9E067A430132152995DED2 /* Sources */,
+				DA82020E52E17D826FFCADB5041F16F0 /* Frameworks */,
+				E78446FFAE8C14DFE04FCEDB576E04CE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PureLayout;
+			productName = PureLayout;
+			productReference = B0FB5C2ECBAD17E5C0A3427C4F60C5EC /* PureLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		7E11C99856DC1F64F9457D7B6D8BC048 /* Pods-MimoiOSCodingChallengeTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B2F091796D060507B3666EF7D525A539 /* Build configuration list for PBXNativeTarget "Pods-MimoiOSCodingChallengeTests" */;
@@ -515,7 +347,7 @@
 			);
 			name = "Pods-MimoiOSCodingChallengeTests";
 			productName = "Pods-MimoiOSCodingChallengeTests";
-			productReference = 870DBFA0AC61B61632D30AE4411C2B8E /* Pods_MimoiOSCodingChallengeTests.framework */;
+			productReference = B22BCE341EC833E8516EA8CB74787477 /* Pods_MimoiOSCodingChallengeTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		8F81FB2F88B3D430564BC29926C300AD /* Pods-MimoiOSCodingChallengeUITests */ = {
@@ -532,60 +364,25 @@
 			);
 			name = "Pods-MimoiOSCodingChallengeUITests";
 			productName = "Pods-MimoiOSCodingChallengeUITests";
-			productReference = EE8939CF2C6B586D69175B2574152035 /* Pods_MimoiOSCodingChallengeUITests.framework */;
+			productReference = 4F74BE817943750392374633261525E7 /* Pods_MimoiOSCodingChallengeUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9385016C18AE8E9305640B4A01EA0E7C /* Auth0 */ = {
+		AED0E7792D39E9067B538A928E7889A4 /* Pods-MimoiOSCodingChallenge */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B30FF62632F46CE0C60B83E313D8EC69 /* Build configuration list for PBXNativeTarget "Auth0" */;
+			buildConfigurationList = 833570E9F36C62860A191FCCFA4768F5 /* Build configuration list for PBXNativeTarget "Pods-MimoiOSCodingChallenge" */;
 			buildPhases = (
-				53B74A229122E2DFD5087AED80DF055C /* Sources */,
-				096AF779CF478AFD28C7E83F972B85F8 /* Frameworks */,
-				84EDC38F5A3ABB57B2F624D32E2D758A /* Headers */,
+				0ED26192D426A383703C2595E11B47F1 /* Sources */,
+				BC23472EE7346B6ADAE6EAEB03AEEA4E /* Frameworks */,
+				4B7957D3931C5907E3B567B3C9620989 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = Auth0;
-			productName = Auth0;
-			productReference = 57594BCCC8681C5E27D9914311E0DA55 /* Auth0.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		AB3DCF03C32C5318E0FBEBB814B25428 /* Pods-MimoiOSCodingChallenge */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FD974040984304112BD7EA5224736E98 /* Build configuration list for PBXNativeTarget "Pods-MimoiOSCodingChallenge" */;
-			buildPhases = (
-				D83A49787F40A0434CE6D71DF15D65BB /* Sources */,
-				FD853C2BE9D5EB241CCD2AB17BA87874 /* Frameworks */,
-				C5F537B1D0FE3BC3DFA8E84755EA2DAD /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F3E4BC441A5ECD102EF17FEB2A9ED65D /* PBXTargetDependency */,
-				7602C6B62998D08455A5628644F6C92F /* PBXTargetDependency */,
+				7F9F274A5EA57A3A21B0AEA5F0B7037F /* PBXTargetDependency */,
 			);
 			name = "Pods-MimoiOSCodingChallenge";
 			productName = "Pods-MimoiOSCodingChallenge";
-			productReference = 217DECD2547D806D7751F15B61F66955 /* Pods_MimoiOSCodingChallenge.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		DD013D3EFF19275CBDCBFFF63F790B61 /* PureLayout */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 46051F1DEC29F54B3DA008607E191AD2 /* Build configuration list for PBXNativeTarget "PureLayout" */;
-			buildPhases = (
-				6DA1C748BC111328255D1DD3E0E8BB5E /* Sources */,
-				BB949E2223962EE6715BA6ACD200DAC2 /* Frameworks */,
-				84DF02CE7C431D8A56004B856887EDC7 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = PureLayout;
-			productName = PureLayout;
-			productReference = 328D20A1FE3B87E0CAAA2FA18FDF4FC8 /* PureLayout.framework */;
+			productReference = 234F38BA2CFAF2311EB0D7150B2729EF /* Pods_MimoiOSCodingChallenge.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -605,62 +402,24 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = C88B2DE5AD8EA342ACC7E9BCDD31B5B5 /* Products */;
+			productRefGroup = 477DE8C7BA9A81A853AA69F51BC05E9B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9385016C18AE8E9305640B4A01EA0E7C /* Auth0 */,
-				AB3DCF03C32C5318E0FBEBB814B25428 /* Pods-MimoiOSCodingChallenge */,
+				AED0E7792D39E9067B538A928E7889A4 /* Pods-MimoiOSCodingChallenge */,
 				7E11C99856DC1F64F9457D7B6D8BC048 /* Pods-MimoiOSCodingChallengeTests */,
 				8F81FB2F88B3D430564BC29926C300AD /* Pods-MimoiOSCodingChallengeUITests */,
-				DD013D3EFF19275CBDCBFFF63F790B61 /* PureLayout */,
+				6748F1B3FDBCA5C5D3911564DA956C85 /* PureLayout */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		53B74A229122E2DFD5087AED80DF055C /* Sources */ = {
+		0ED26192D426A383703C2595E11B47F1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8AAF3F272EB1FF3BB9963C349E222CA /* _ObjectiveAuthenticationAPI.swift in Sources */,
-				B5FB6B6FBAA5DA3C54656C5D1D97B39A /* _ObjectiveManagementAPI.swift in Sources */,
-				C09256F69A7517ED47D4A022961E04A6 /* _ObjectiveWebAuth.swift in Sources */,
-				73715D0AB77118D6390AC4BC3D94827A /* A0ChallengeGenerator.m in Sources */,
-				AB72E28BCE5A69BC95735907E4D4FEFF /* Auth0-dummy.m in Sources */,
-				A88BD16C7C91D0BD50CEE25055299781 /* Auth0.swift in Sources */,
-				D041768D2DF8E958540F6174B8D61FAE /* Auth0Authentication.swift in Sources */,
-				2E4F0C411F413038C8CBC0492B232BC7 /* Auth0Error.swift in Sources */,
-				E0EAF9EC2357928D44E6B1BC517BD560 /* Authentication.swift in Sources */,
-				8186BF4EA23CFCBB192550FAF3644386 /* AuthenticationError.swift in Sources */,
-				281FBFF0FB26C692049E6419627E98E3 /* ControllerModalPresenter.swift in Sources */,
-				6646C255BA8B77A5F64519F22AA5C455 /* Credentials.swift in Sources */,
-				175DF9C6EFA144EC63C54656A9581BC9 /* Handlers.swift in Sources */,
-				B49208E5076C6C6F9AF17A5770A37698 /* Identity.swift in Sources */,
-				981E6FA9F92F719C780B5B077F878D5E /* JSONObjectPayload.swift in Sources */,
-				8ACAAFF412B67ED0AB4915B53C1CFAFA /* Loggable.swift in Sources */,
-				45EE1A6C912DC6D188BA60C7A8757AE4 /* Logger.swift in Sources */,
-				CCA63A6C9A049649315C67C3D42848FA /* Management.swift in Sources */,
-				6D6497502E0EA93F7FC2AA10200798DC /* ManagementError.swift in Sources */,
-				C377324368CC05AE17B10935B83F0B11 /* NSData+URLSafe.swift in Sources */,
-				4359077D2E7B0E5CA7DBA0499BB143AE /* NSError+Helper.swift in Sources */,
-				848AC6E10958EA2F4B7C292143ECB4A4 /* NSURL+Auth0.swift in Sources */,
-				6FB8450B88312E8A8B22F26D0370C5A2 /* NSURLComponents+OAuth2.swift in Sources */,
-				9B07301B81FA288CCACD6DAE15A169AA /* OAuth2Grant.swift in Sources */,
-				DF2C86FB71FCE8627FE35A63CFE3B2E0 /* OAuth2Session.swift in Sources */,
-				2B255E512FFA3865F371BE7F39C2F5E0 /* Profile.swift in Sources */,
-				ED775DCDE3188F52844C3C6558356F9E /* Request.swift in Sources */,
-				B35E75000897C837EB2566D8DC0815DB /* Requestable.swift in Sources */,
-				A13CF92EADA50F564D9BCC77D3158E4C /* Response.swift in Sources */,
-				E23756070AEBCE0918AB7F02F6256C3C /* ResponseType.swift in Sources */,
-				4E84669C6EB82893C6A41C22571BA410 /* Result.swift in Sources */,
-				6F4BAFB716352E34643E9B35D84E5B36 /* SafariWebAuth.swift in Sources */,
-				0F21571977743B16153F045B528AA453 /* SessionStorage.swift in Sources */,
-				0BC1CAA2E8ADCD6206AC4FE8FEA091E2 /* Telemetry.swift in Sources */,
-				6F2BF167F4B0A7D3714F2B49558C4500 /* UserPatchAttributes.swift in Sources */,
-				5CB5CD80DAA3A231F8B84DF50AC0D44B /* Users.swift in Sources */,
-				A92A98010362B6087E0835955FC9B182 /* WebAuth.swift in Sources */,
-				4419C6F0878D42CC2363B82A907EEE0C /* WebAuthError.swift in Sources */,
+				84F6948BA274EFE29208CDC769BFBC46 /* Pods-MimoiOSCodingChallenge-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -672,14 +431,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6DA1C748BC111328255D1DD3E0E8BB5E /* Sources */ = {
+		5A427511FD9E067A430132152995DED2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52AA7CE9F337B27A48F1E3B1A47E6989 /* ALView+PureLayout.m in Sources */,
-				F0DEEBF6CE86AB5D914E305DD208610B /* NSArray+PureLayout.m in Sources */,
-				D20996DF898C2FAA317D7FC79A6E8CD9 /* NSLayoutConstraint+PureLayout.m in Sources */,
-				8119228409E9E32D7E7FC76E7127D8C4 /* PureLayout-dummy.m in Sources */,
+				C90E3A03A806C1FA318E4C8B3F6D04F6 /* ALView+PureLayout.m in Sources */,
+				5B965C3E51DB0A14405AF4AE50780172 /* NSArray+PureLayout.m in Sources */,
+				F9E6C15E8C9EDD76E7790320A7E1671C /* NSLayoutConstraint+PureLayout.m in Sources */,
+				7E6CE3F55DA98BF78C3C7AD08DF73797 /* PureLayout-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -691,28 +450,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D83A49787F40A0434CE6D71DF15D65BB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F5E3D2DBA3CB4EB16DEA96F7A3220F1F /* Pods-MimoiOSCodingChallenge-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7602C6B62998D08455A5628644F6C92F /* PBXTargetDependency */ = {
+		7F9F274A5EA57A3A21B0AEA5F0B7037F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PureLayout;
-			target = DD013D3EFF19275CBDCBFFF63F790B61 /* PureLayout */;
-			targetProxy = D2C65F899AE20D2E8C2F13D83EC0F080 /* PBXContainerItemProxy */;
-		};
-		F3E4BC441A5ECD102EF17FEB2A9ED65D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Auth0;
-			target = 9385016C18AE8E9305640B4A01EA0E7C /* Auth0 */;
-			targetProxy = 29E869E5EC61A188AE50721B6ED2AC9C /* PBXContainerItemProxy */;
+			target = 6748F1B3FDBCA5C5D3911564DA956C85 /* PureLayout */;
+			targetProxy = 4F6F5560C47B06B99D308C05FC29CBE7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -752,9 +497,9 @@
 			};
 			name = Debug;
 		};
-		13B6A30FE615DFE898C0EA7E141009F8 /* Debug */ = {
+		08F6816C38865895CEABCA397E522301 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 418675A047CD18872E5BA05678C61BB9 /* Auth0.xcconfig */;
+			baseConfigurationReference = 01B056FE48A821CA3D3818E32A4CFEDF /* PureLayout.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -767,23 +512,57 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Auth0/Auth0-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Auth0/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/PureLayout/PureLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PureLayout/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Auth0/Auth0.modulemap";
+				MODULEMAP_FILE = "Target Support Files/PureLayout/PureLayout.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Auth0;
+				PRODUCT_NAME = PureLayout;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		0EDB288716E2896310A8ED1CC7588E39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C911B3853FC6F5A7ABF9A7A4FFDAA134 /* Pods-MimoiOSCodingChallenge.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MimoiOSCodingChallenge/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MimoiOSCodingChallenge/Pods-MimoiOSCodingChallenge.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MimoiOSCodingChallenge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		1747D66B958FDA75EBFEB59ECB09EACB /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -820,6 +599,38 @@
 			};
 			name = Release;
 		};
+		42417FD72BB6923B0266AADC425E51A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01B056FE48A821CA3D3818E32A4CFEDF /* PureLayout.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PureLayout/PureLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PureLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PureLayout/PureLayout.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PureLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		4389DD2E3E2975F14F9550C3954F5D30 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C3227C0AC64D3472A39CA215D8EE6788 /* Pods-MimoiOSCodingChallengeUITests.release.xcconfig */;
@@ -847,77 +658,6 @@
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_MimoiOSCodingChallengeUITests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5326CB2B2AEA14B33BF157F309FF4289 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D902C2BC5637DF488238528DF253B430 /* Pods-MimoiOSCodingChallenge.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MimoiOSCodingChallenge/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MimoiOSCodingChallenge/Pods-MimoiOSCodingChallenge.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MimoiOSCodingChallenge;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5E891E47D478C703FF2030CA512592B9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C911B3853FC6F5A7ABF9A7A4FFDAA134 /* Pods-MimoiOSCodingChallenge.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MimoiOSCodingChallenge/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MimoiOSCodingChallenge/Pods-MimoiOSCodingChallenge.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MimoiOSCodingChallenge;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1001,9 +741,9 @@
 			};
 			name = Release;
 		};
-		76C84ECE78201736F1F3C0FD4D18DCE6 /* Debug */ = {
+		E251C88BFE5D75DDF5C193FE495698EA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 20C9C9D99DAD07930AA620A6F3DF26FE /* PureLayout.xcconfig */;
+			baseConfigurationReference = D902C2BC5637DF488238528DF253B430 /* Pods-MimoiOSCodingChallenge.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1016,86 +756,25 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PureLayout/PureLayout-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PureLayout/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-MimoiOSCodingChallenge/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PureLayout/PureLayout.modulemap";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MimoiOSCodingChallenge/Pods-MimoiOSCodingChallenge.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = PureLayout;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MimoiOSCodingChallenge;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		8B4713234DE159AA0D5414B6179D2A94 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 418675A047CD18872E5BA05678C61BB9 /* Auth0.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Auth0/Auth0-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Auth0/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Auth0/Auth0.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Auth0;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A7FBEDA8585CC371ABF8D9D531171C51 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 20C9C9D99DAD07930AA620A6F3DF26FE /* PureLayout.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PureLayout/PureLayout-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PureLayout/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PureLayout/PureLayout.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = PureLayout;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1162,11 +841,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		46051F1DEC29F54B3DA008607E191AD2 /* Build configuration list for PBXNativeTarget "PureLayout" */ = {
+		57E1F18C73CD001B0459480B814D7BE1 /* Build configuration list for PBXNativeTarget "PureLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				76C84ECE78201736F1F3C0FD4D18DCE6 /* Debug */,
-				A7FBEDA8585CC371ABF8D9D531171C51 /* Release */,
+				08F6816C38865895CEABCA397E522301 /* Debug */,
+				42417FD72BB6923B0266AADC425E51A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		833570E9F36C62860A191FCCFA4768F5 /* Build configuration list for PBXNativeTarget "Pods-MimoiOSCodingChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E251C88BFE5D75DDF5C193FE495698EA /* Debug */,
+				0EDB288716E2896310A8ED1CC7588E39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1176,24 +864,6 @@
 			buildConfigurations = (
 				07F3B0302B3DCD42315FAA1F0AC273D5 /* Debug */,
 				1747D66B958FDA75EBFEB59ECB09EACB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B30FF62632F46CE0C60B83E313D8EC69 /* Build configuration list for PBXNativeTarget "Auth0" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				13B6A30FE615DFE898C0EA7E141009F8 /* Debug */,
-				8B4713234DE159AA0D5414B6179D2A94 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FD974040984304112BD7EA5224736E98 /* Build configuration list for PBXNativeTarget "Pods-MimoiOSCodingChallenge" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5326CB2B2AEA14B33BF157F309FF4289 /* Debug */,
-				5E891E47D478C703FF2030CA512592B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

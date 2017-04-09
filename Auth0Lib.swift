@@ -96,6 +96,58 @@ struct Auth0Lib {
         
     }
     
+    func userInfo(access_token: String, onCompletion: ((Result<UserInfo>) -> ())! ) {
+        //parameters
+        let data = ["id_token": access_token]  as [String: Any]
+        //get results
+        var completitionHandler: ((Data?, URLResponse?, Error?) -> Void)
+        completitionHandler = {data, response, error in
+            if error == nil && data != nil {
+                
+                
+                
+                var jsonObject: [String: Any]?
+                do {
+                    jsonObject = try JSONSerialization.jsonObject(with: data!, options: []) as! [String: Any]
+                } catch {
+                    
+                    var strData = String(data: data!, encoding: .utf8)
+                    print (strData!)
+                    onCompletion(.failure(error: "unauthorized"))
+                }
+                
+                guard let json = jsonObject else {
+                    return
+                }
+                
+                if let access_token = json["email"] as? String {
+                    let email = json["email"] as? String
+                    let picture = json["picture"] as? String
+                    
+                    var userInfo = UserInfo(email: email!, picture: picture!)
+                    onCompletion(.success(result: userInfo))
+                    
+                } else {
+                    
+                    if let errorDescription = json["error"] as? String  {
+                        onCompletion(.failure(error: errorDescription))
+                    }
+                    
+                    if let errorDescription = json["description"] as? String  {
+                        onCompletion(.failure(error: errorDescription))
+                    }
+                }
+                
+                
+            } else {
+                onCompletion(.failure(error: error.debugDescription))
+                print(error.debugDescription)
+            }
+        }
+        let urlString = self.urlString!+"/tokeninfo"
+        auth0Send(urlString: urlString, data: data, completitionHandler: completitionHandler)
+    }
+
     
     func signUp(email: String, password: String, onCompletion: ((Result<Credentials>) -> ())!) {
         //parameters
@@ -143,70 +195,6 @@ struct Auth0Lib {
         }
         let urlString = self.urlString!+"/dbconnections/signup"
         auth0Send(urlString: urlString, data: data, completitionHandler: completitionHandler)
-    }
-    
-    func login2(username: String, password: String, onCompletion: ((Result<Credentials>) -> ())!) {
-        
-        var jsonObject: Data?
-        let data = ["client_id": self.clientId!,
-                    "username": username,
-                    "password": password,
-                    "connection": "Username-Password-Authentication",
-                    "scope": "openid"]  as [String: Any]
-        
-
-        
-        do {
-            jsonObject = try JSONSerialization.data(withJSONObject: data, options: [])
-        } catch {
-            
-        }
-        
-        
-        if let url = URL(string: self.urlString!) {
-            var request = URLRequest(url: url)
-            request.httpMethod = "POST"
-            request.setValue("application/json", forHTTPHeaderField: "Content-Type")
-            request.httpBody = jsonObject
-            let task = URLSession.shared.dataTask(with: request, completionHandler: { (data, response, error) in
-                if error == nil && data != nil {
-                    
-                    var jsonObject: [String: Any]?
-                    do {
-                        jsonObject = try JSONSerialization.jsonObject(with: data!, options: []) as! [String: Any]
-                    } catch {
-                        
-                    }
-                    
-                    guard let json = jsonObject else {
-                        return
-                    }
-                    
-                    if let access_token = json["access_token"] as? String {
-                        let id_Token = json["id_token"] as! String
-                        var credential = Credentials(accessToken: access_token, idToken: id_Token)
-                        onCompletion(.success(result: credential))
-                    
-                    } else {
-                    
-                    //guard let error = json["error"] as? String else { return }
-                    guard let errorDescription = json["error_description"] as? String else {
-                        return
-                    }
-                        onCompletion(.failure(error: errorDescription))
-                    }
-                    
-                    
-                } else {
-                    onCompletion(.failure(error: error.debugDescription))
-                    print(error.debugDescription)
-                }
-            })
-            task.resume()
-            
-        }
-        
-        
     }
     
 }

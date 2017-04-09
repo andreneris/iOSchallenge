@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AB3DCF03C32C5318E0FBEBB814B25428"
+               BlueprintIdentifier = "AED0E7792D39E9067B538A928E7889A4"
                BuildableName = "Pods_MimoiOSCodingChallenge.framework"
                BlueprintName = "Pods-MimoiOSCodingChallenge"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AB3DCF03C32C5318E0FBEBB814B25428"
+            BlueprintIdentifier = "AED0E7792D39E9067B538A928E7889A4"
             BuildableName = "Pods_MimoiOSCodingChallenge.framework"
             BlueprintName = "Pods-MimoiOSCodingChallenge"
             ReferencedContainer = "container:Pods.xcodeproj">

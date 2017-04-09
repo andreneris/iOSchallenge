@@ -53,6 +53,7 @@ static const CGFloat kSettingsStandardRowHeight                 = 48.0;
 static const CGFloat kSettingsSectionFooterHeight               = 48.0;
 
 
+
 @interface SettingsViewController () <UITableViewDataSource, UITableViewDelegate, MFMailComposeViewControllerDelegate>
 
 @property (strong, nonatomic) UITableView *tableView;
@@ -72,7 +73,10 @@ static const CGFloat kSettingsSectionFooterHeight               = 48.0;
 @property BOOL userSubscribed;
 @end
 
+
 @implementation SettingsViewController
+@synthesize email;
+
 
 #pragma mark - UIViewController View Handling
 
@@ -116,6 +120,9 @@ static const CGFloat kSettingsSectionFooterHeight               = 48.0;
     NSNotificationCenter *nc = [NSNotificationCenter defaultCenter];
     [nc removeObserver:self];
 }
+
+
+
 
 - (void)updateViewConstraints {
 	if (!self.didSetConstraints) {
@@ -281,7 +288,7 @@ static const CGFloat kSettingsSectionFooterHeight               = 48.0;
         UILabel *emailLabel = [[UILabel alloc] init];
         emailLabel.translatesAutoresizingMaskIntoConstraints = NO;
         emailLabel.font = [UIFont systemFontOfSize:self.emailLabelFontSize];
-        emailLabel.text = @"you@getmimo.com";
+        emailLabel.text = email;//@"you@getmimo.com";
         emailLabel.textColor = [UIColor grayColor];
         [headerView addSubview:emailLabel];
         
