@@ -96,8 +96,12 @@
                     </view>
                     <connections>
                         <outlet property="newAccountButton" destination="ocf-8d-Nrs" id="ogR-ZY-81H"/>
+                        <outlet property="newPasswordText" destination="AiG-1X-49X" id="2kV-cJ-OgC"/>
+                        <outlet property="newUserNameText" destination="OAg-nQ-gaa" id="ZET-WQ-cSS"/>
+                        <outlet property="passwordText" destination="xid-22-oae" id="DOu-f0-OuV"/>
                         <outlet property="signInView" destination="xpJ-wL-ZEM" id="TDR-Z3-xUU"/>
                         <outlet property="signUpView" destination="lQc-HJ-rUg" id="mna-q6-dRw"/>
+                        <outlet property="userNameText" destination="p6W-nb-48x" id="zLa-bm-2Uz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AqT-5F-qCn" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -141,11 +145,14 @@
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KmB-CV-OK0">
                                     <rect key="frame" x="0.0" y="167.5" width="337" height="31.5"/>
                                     <state key="normal" title="Create Account"/>
+                                    <connections>
+                                        <action selector="createAccountAction:" destination="1Rb-ec-9LR" eventType="touchUpInside" id="FTg-BH-m25"/>
+                                    </connections>
                                 </button>
                             </subviews>
                         </stackView>
                     </subviews>
-                    <color key="backgroundColor" red="0.38626658920000001" green="0.78700989480000005" blue="0.38500848409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="backgroundColor" red="0.38626658916473389" green="0.78700989484786987" blue="0.38500848412513733" alpha="0.083663313356164379" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="bottom" secondItem="9w6-qJ-d8A" secondAttribute="bottom" id="7Hj-gy-1Xa"/>
                         <constraint firstAttribute="trailing" secondItem="9w6-qJ-d8A" secondAttribute="trailing" constant="20" id="8Ev-zf-dYf"/>

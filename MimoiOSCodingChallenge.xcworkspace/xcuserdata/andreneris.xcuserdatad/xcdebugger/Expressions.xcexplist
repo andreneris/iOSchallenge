@@ -3,6 +3,20 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "Auth0Lib.init() -&gt; Auth0Lib:Auth0Lib.swift">
+      </ContextState>
+      <ContextState
+         contextName = "Auth0Lib.login(username : String, password : String, onCompletion : (Result&lt;Credentials&gt;) -&gt; ()!) -&gt; ():Auth0Lib.swift">
+      </ContextState>
+      <ContextState
+         contextName = "Auth0Lib.(login(username : String, password : String, onCompletion : (Result&lt;Credentials&gt;) -&gt; ()!) -&gt; ()).(closure #1):Auth0Lib.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "task">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "-[AppDelegate application:didFinishLaunchingWithOptions:]:AppDelegate.m">
          <PersistentStrings>
             <PersistentString

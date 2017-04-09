@@ -23,6 +23,9 @@
 		BC31BCD21E98F92E00DC36A9 /* Auth0.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC31BCD11E98F92E00DC36A9 /* Auth0.plist */; };
 		BC31BCD41E98FE7A00DC36A9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC31BCD31E98FE7A00DC36A9 /* LoginViewController.swift */; };
 		BC31BCD61E99227E00DC36A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC31BCD51E99227E00DC36A9 /* Main.storyboard */; };
+		BC31BCDA1E995E3B00DC36A9 /* Auth0Lib.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC31BCD91E995E3B00DC36A9 /* Auth0Lib.swift */; };
+		BC31BCDC1E997FC700DC36A9 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC31BCDB1E997FC700DC36A9 /* Result.swift */; };
+		BC31BCDE1E99822800DC36A9 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC31BCDD1E99822800DC36A9 /* Credentials.swift */; };
 		BD6E69CAC730DB8A44EDB347 /* Pods_MimoiOSCodingChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0752AC0B1484421C9660620 /* Pods_MimoiOSCodingChallenge.framework */; };
 /* End PBXBuildFile section */
 
@@ -74,6 +77,9 @@
 		BC31BCD11E98F92E00DC36A9 /* Auth0.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Auth0.plist; sourceTree = "<group>"; };
 		BC31BCD31E98FE7A00DC36A9 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		BC31BCD51E99227E00DC36A9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		BC31BCD91E995E3B00DC36A9 /* Auth0Lib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Auth0Lib.swift; sourceTree = "<group>"; };
+		BC31BCDB1E997FC700DC36A9 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		BC31BCDD1E99822800DC36A9 /* Credentials.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
 		C0752AC0B1484421C9660620 /* Pods_MimoiOSCodingChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MimoiOSCodingChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4CA2B99159E74AED055510E /* Pods_MimoiOSCodingChallengeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MimoiOSCodingChallengeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E18B8DDCBC35C4D884C0C7B3 /* Pods-MimoiOSCodingChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MimoiOSCodingChallengeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MimoiOSCodingChallengeTests/Pods-MimoiOSCodingChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -111,6 +117,9 @@
 		2BF3DEE91E54B79A004DD445 = {
 			isa = PBXGroup;
 			children = (
+				BC31BCDD1E99822800DC36A9 /* Credentials.swift */,
+				BC31BCDB1E997FC700DC36A9 /* Result.swift */,
+				BC31BCD91E995E3B00DC36A9 /* Auth0Lib.swift */,
 				2BF3DEF41E54B79A004DD445 /* MimoiOSCodingChallenge */,
 				2BF3DF0E1E54B79A004DD445 /* MimoiOSCodingChallengeTests */,
 				2BF3DF191E54B79A004DD445 /* MimoiOSCodingChallengeUITests */,
@@ -494,6 +503,9 @@
 				2BF3DEFA1E54B79A004DD445 /* AppDelegate.m in Sources */,
 				2BCC6AB61E55A55A00585FA1 /* SettingsTableViewCell.swift in Sources */,
 				BC31BCD41E98FE7A00DC36A9 /* LoginViewController.swift in Sources */,
+				BC31BCDE1E99822800DC36A9 /* Credentials.swift in Sources */,
+				BC31BCDA1E995E3B00DC36A9 /* Auth0Lib.swift in Sources */,
+				BC31BCDC1E997FC700DC36A9 /* Result.swift in Sources */,
 				2BF3DEF71E54B79A004DD445 /* main.m in Sources */,
 				2BF3DF2D1E54B7DF004DD445 /* SettingsViewController.swift in Sources */,
 				2BF3DF2C1E54B7DF004DD445 /* SettingsViewController.m in Sources */,

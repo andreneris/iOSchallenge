@@ -6,6 +6,7 @@ target 'MimoiOSCodingChallenge' do
   use_frameworks!
   pod 'PureLayout', '~> 3.0.2'
   pod 'Auth0', '~> 1.0'
+  #pod 'Alamofire', '~> 4.4'
 
   # Pods for MimoiOSCodingChallenge
 
