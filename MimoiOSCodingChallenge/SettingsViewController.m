@@ -564,6 +564,7 @@ static const CGFloat kSettingsSectionFooterHeight               = 48.0;
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     UIViewController *viewController = [storyboard instantiateViewControllerWithIdentifier: @"Login"];
     [self.navigationController presentViewController:viewController animated:YES completion:NULL];
+    [self dismissViewControllerAnimated:YES completion:Nil];
 
 }
 
