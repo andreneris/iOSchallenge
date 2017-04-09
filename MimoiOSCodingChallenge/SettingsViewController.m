@@ -76,6 +76,7 @@ static const CGFloat kSettingsSectionFooterHeight               = 48.0;
 
 @implementation SettingsViewController
 @synthesize email;
+@synthesize switchColor;
 
 
 #pragma mark - UIViewController View Handling
@@ -97,6 +98,8 @@ static const CGFloat kSettingsSectionFooterHeight               = 48.0;
 	self.timePicker.hidden = YES;
 	[self.view addSubview:self.timePicker];
 	 */
+     self.switchColor = [[NSUserDefaults standardUserDefaults] boolForKey:@"switchColor"];
+    
 	[self.view setNeedsUpdateConstraints];
 }
 
@@ -149,7 +152,7 @@ static const CGFloat kSettingsSectionFooterHeight               = 48.0;
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
     self.tableView.separatorColor = [UIColor grayColor];
-    self.tableView.backgroundColor = [UIColor whiteColor];
+    self.tableView.backgroundColor = self.switchColor ? [UIColor blackColor]  : [UIColor whiteColor];//[UIColor whiteColor];
     [self.view addSubview:self.tableView];
 
     NSDictionary *views = @{ @"tableView": self.tableView };
@@ -372,7 +375,7 @@ static const CGFloat kSettingsSectionFooterHeight               = 48.0;
 		if (indexPath.row == SettingsTableSectionNotificationRowSwitch) {
 			cell.selectionStyle = UITableViewCellSelectionStyleNone;
 			cell.selectionSwitch.hidden = NO;
-			BOOL switchOn = NO;
+			BOOL switchOn = self.switchColor;
 			
 			[cell.selectionSwitch setOn:switchOn animated:NO];
 			cell.delegate = self;

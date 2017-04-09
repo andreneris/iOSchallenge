@@ -9,5 +9,6 @@
 
 @property (strong, nonatomic) NSString *property;
 @property (nonatomic, strong) NSString *email;
-
+@property BOOL switchColor;
+- (void)setupTableView;
 @end

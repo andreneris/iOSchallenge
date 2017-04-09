@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Title</key>
+	<string>MIMO Settings</string>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Color scheme</string>
+			<key>Key</key>
+			<string>switchColor</string>
+			<key>DefaultValue</key>
+			<false/>
+			<key>Values</key>
+			<array>
+				<false/>
+				<true/>
+			</array>
+			<key>Titles</key>
+			<array>
+				<string>White</string>
+				<string>Black</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

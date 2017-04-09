@@ -8,6 +8,8 @@ extension SettingsViewController : SettingsTableViewCellDelegate {
 
 	
 	func switchChangedValue(switcher: UISwitch) {
-		
+        self.switchColor = switcher.isOn
+        UserDefaults.standard.set(switcher.isOn, forKey: "switchColor")
+		self.setupTableView()
 	}
 }

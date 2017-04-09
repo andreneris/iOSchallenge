@@ -27,6 +27,7 @@
 		BC31BCDC1E997FC700DC36A9 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC31BCDB1E997FC700DC36A9 /* Result.swift */; };
 		BC31BCDE1E99822800DC36A9 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC31BCDD1E99822800DC36A9 /* Credentials.swift */; };
 		BC31BCE01E9A688A00DC36A9 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC31BCDF1E9A688A00DC36A9 /* UserInfo.swift */; };
+		BC902E021E9ABD1E00F7CEEA /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BC902E011E9ABD1E00F7CEEA /* Settings.bundle */; };
 		BD6E69CAC730DB8A44EDB347 /* Pods_MimoiOSCodingChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0752AC0B1484421C9660620 /* Pods_MimoiOSCodingChallenge.framework */; };
 /* End PBXBuildFile section */
 
@@ -82,6 +83,7 @@
 		BC31BCDB1E997FC700DC36A9 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		BC31BCDD1E99822800DC36A9 /* Credentials.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
 		BC31BCDF1E9A688A00DC36A9 /* UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		BC902E011E9ABD1E00F7CEEA /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		C0752AC0B1484421C9660620 /* Pods_MimoiOSCodingChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MimoiOSCodingChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4CA2B99159E74AED055510E /* Pods_MimoiOSCodingChallengeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MimoiOSCodingChallengeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E18B8DDCBC35C4D884C0C7B3 /* Pods-MimoiOSCodingChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MimoiOSCodingChallengeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MimoiOSCodingChallengeTests/Pods-MimoiOSCodingChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 		2BF3DEE91E54B79A004DD445 = {
 			isa = PBXGroup;
 			children = (
+				BC902E011E9ABD1E00F7CEEA /* Settings.bundle */,
 				BC31BCDF1E9A688A00DC36A9 /* UserInfo.swift */,
 				BC31BCDD1E99822800DC36A9 /* Credentials.swift */,
 				BC31BCDB1E997FC700DC36A9 /* Result.swift */,
@@ -337,6 +340,7 @@
 			files = (
 				2BF3DF051E54B79A004DD445 /* LaunchScreen.storyboard in Resources */,
 				BC31BCD21E98F92E00DC36A9 /* Auth0.plist in Resources */,
+				BC902E021E9ABD1E00F7CEEA /* Settings.bundle in Resources */,
 				2BF3DF021E54B79A004DD445 /* Assets.xcassets in Resources */,
 				BC31BCD61E99227E00DC36A9 /* Main.storyboard in Resources */,
 			);
